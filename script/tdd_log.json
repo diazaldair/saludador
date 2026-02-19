@@ -180,9 +180,31 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bb2ca56219c486c800bca574a7099e691446c473",
     "commitName": "feat: agregar saludo por edad",
     "commitTimestamp": 1771479339687,
     "testId": 6
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1771479527541,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1771479709919,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar soporte de idioma ingles",
+    "commitTimestamp": 1771479721051,
+    "testId": 7
   }
 ]

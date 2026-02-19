@@ -40,4 +40,8 @@ describe("Saludador", () => {
   it("no deberia usar Sr./Sra. si es menor o igual a 30", () => {
     expect(saludar("Carlos", 9, "M", 25)).toEqual("Buenos días Carlos");
   });
+  it("deberia saludar en ingles por la mañana", () => {
+  expect(saludar("Ana", 9, "F", 40, "EN")).toEqual("Good morning Mrs. Ana");
+});
+
 });
