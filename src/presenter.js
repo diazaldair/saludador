@@ -6,5 +6,6 @@ const div = document.querySelector("#resultado-div");
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
-  div.innerHTML = "<p>" + saludar() + "</p>";
+  const nombre = (prompt("¿Cuál es tu nombre?") || "").trim();
+  div.innerHTML = "<p>" + saludar(nombre) + "</p>";
 });

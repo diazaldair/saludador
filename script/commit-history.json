@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "7b30c88bb78c468a354d99383fb1d2ec825776d2",
     "author": "aldair",
     "commit": {
       "date": "2026-02-19T04:36:09.000Z",
       "message": "feat: implementar saludo básico hola",
-      "url": "https://github.com/diazaldair/saludador-tdd/commit/HEAD"
+      "url": "https://github.com/diazaldair/saludador-tdd/commit/7b30c88bb78c468a354d99383fb1d2ec825776d2"
     },
     "stats": {
       "total": 63,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "aldair",
+    "commit": {
+      "date": "2026-02-19T04:54:16.000Z",
+      "message": "feat: agregar saludo personalizado por nombre",
+      "url": "https://github.com/diazaldair/saludador-tdd/commit/HEAD"
+    },
+    "stats": {
+      "total": 36,
+      "additions": 34,
+      "deletions": 2,
+      "date": "2026-02-19"
+    },
+    "coverage": 100,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }

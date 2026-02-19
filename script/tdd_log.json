@@ -24,9 +24,39 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7b30c88bb78c468a354d99383fb1d2ec825776d2",
     "commitName": "feat: implementar saludo básico hola",
     "commitTimestamp": 1771475771735,
     "testId": 0
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1771476134361,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 0,
+    "numTotalTests": 1,
+    "timestamp": 1771476241694,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1771476359504,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar saludo personalizado por nombre",
+    "commitTimestamp": 1771476859180,
+    "testId": 1
   }
 ]
