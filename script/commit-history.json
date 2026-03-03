@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3c0d543a796606b88e070ab4a04eb0b282a62d06",
     "author": "aldair",
     "commit": {
       "date": "2026-03-03T04:09:45.000Z",
       "message": "refactor: ajustar formato de marcador con guion",
-      "url": "https://github.com/diazaldair/saludador/commit/HEAD"
+      "url": "https://github.com/diazaldair/saludador/commit/3c0d543a796606b88e070ab4a04eb0b282a62d06"
     },
     "stats": {
       "total": 151,
@@ -186,6 +186,25 @@
     },
     "coverage": 95.92,
     "test_count": 22,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "aldair",
+    "commit": {
+      "date": "2026-03-03T04:14:26.000Z",
+      "message": "feat: mostrar empate 15-15",
+      "url": "https://github.com/diazaldair/saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
+      "deletions": 0,
+      "date": "2026-03-03"
+    },
+    "coverage": 95.92,
+    "test_count": 23,
     "failed_tests": 0,
     "conclusion": "success"
   }

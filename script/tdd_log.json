@@ -438,9 +438,23 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3c0d543a796606b88e070ab4a04eb0b282a62d06",
     "commitName": "refactor: ajustar formato de marcador con guion",
     "commitTimestamp": 1772510986961,
     "testId": 9
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1772511256301,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar empate 15-15",
+    "commitTimestamp": 1772511268546,
+    "testId": 10
   }
 ]
