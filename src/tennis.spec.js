@@ -39,4 +39,16 @@ describe("Tennis Scorer", () => {
   tennis.player2Scores();
   expect(tennis.score()).toEqual("15-15");
 });
+it("cuando ambos tienen 40 => Deuce", () => {
+  let tennis = new Tennis();
+  tennis.player1Scores();
+  tennis.player1Scores();
+  tennis.player1Scores();
+
+  tennis.player2Scores();
+  tennis.player2Scores();
+  tennis.player2Scores();
+
+  expect(tennis.score()).toEqual("Deuce");
+});
 });

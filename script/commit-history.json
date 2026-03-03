@@ -190,12 +190,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7469e2ea3b4723528589bdaee67b5f3737bd4bb8",
     "author": "aldair",
     "commit": {
       "date": "2026-03-03T04:14:26.000Z",
       "message": "feat: mostrar empate 15-15",
-      "url": "https://github.com/diazaldair/saludador/commit/HEAD"
+      "url": "https://github.com/diazaldair/saludador/commit/7469e2ea3b4723528589bdaee67b5f3737bd4bb8"
     },
     "stats": {
       "total": 14,
@@ -205,6 +205,25 @@
     },
     "coverage": 95.92,
     "test_count": 23,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "aldair",
+    "commit": {
+      "date": "2026-03-03T04:29:09.000Z",
+      "message": "feat: mostrar Deuce cuando hay 40-40",
+      "url": "https://github.com/diazaldair/saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 35,
+      "additions": 34,
+      "deletions": 1,
+      "date": "2026-03-03"
+    },
+    "coverage": 96.08,
+    "test_count": 24,
     "failed_tests": 0,
     "conclusion": "success"
   }

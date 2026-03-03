@@ -5,9 +5,14 @@ class Tennis {
   }
 
   score() {
+    // ✅ NUEVO: Deuce cuando ambos llegan a 40 (3 puntos)
+    if (this.player1Points === 3 && this.player2Points === 3) {
+      return "Deuce";
+    }
+
     const p1 = this.pointsToScore(this.player1Points);
     const p2 = this.pointsToScore(this.player2Points);
-    return `${p1}-${p2}`; // formato del PDF
+    return `${p1}-${p2}`;
   }
 
   pointsToScore(points) {
