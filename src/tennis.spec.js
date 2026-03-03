@@ -125,4 +125,45 @@ it("desde Advantage player 2, si anota otra vez => Game for player 2", () => {
 
   expect(tennis.score()).toEqual("Game for player 2");
 });
+it("si esta Advantage player 1 y anota player 2 => vuelve a Deuce", () => {
+  let tennis = new Tennis();
+
+  // Deuce (3-3)
+  tennis.player1Scores();
+  tennis.player1Scores();
+  tennis.player1Scores();
+
+  tennis.player2Scores();
+  tennis.player2Scores();
+  tennis.player2Scores();
+
+  // Advantage player 1 (4-3)
+  tennis.player1Scores();
+
+  // player 2 empata (4-4) => Deuce
+  tennis.player2Scores();
+
+  expect(tennis.score()).toEqual("Deuce");
+});
+
+it("si esta Advantage player 2 y anota player 1 => vuelve a Deuce", () => {
+  let tennis = new Tennis();
+
+  // Deuce (3-3)
+  tennis.player1Scores();
+  tennis.player1Scores();
+  tennis.player1Scores();
+
+  tennis.player2Scores();
+  tennis.player2Scores();
+  tennis.player2Scores();
+
+  // Advantage player 2 (3-4)
+  tennis.player2Scores();
+
+  // player 1 empata (4-4) => Deuce
+  tennis.player1Scores();
+
+  expect(tennis.score()).toEqual("Deuce");
+});
 });
