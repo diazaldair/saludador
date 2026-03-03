@@ -320,9 +320,127 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6405dba4fc33d2e848fcba27c53905c9540256a9",
     "commitName": "feat: agregar puntaje del jugador 2",
     "commitTimestamp": 1772508390584,
     "testId": 8
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1772508638202,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1772508661314,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1772508900174,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1772508990117,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 2,
+    "numTotalTests": 23,
+    "timestamp": 1772509825712,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 1,
+    "numTotalTests": 23,
+    "timestamp": 1772509940879,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 1,
+    "numTotalTests": 23,
+    "timestamp": 1772509960289,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 1,
+    "numTotalTests": 23,
+    "timestamp": 1772510178805,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1772510208269,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 2,
+    "numTotalTests": 22,
+    "timestamp": 1772510583638,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 2,
+    "numTotalTests": 22,
+    "timestamp": 1772510605064,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1772510680721,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1772510962518,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1772510977579,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: ajustar formato de marcador con guion",
+    "commitTimestamp": 1772510986961,
+    "testId": 9
   }
 ]

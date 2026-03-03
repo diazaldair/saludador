@@ -152,17 +152,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6405dba4fc33d2e848fcba27c53905c9540256a9",
     "author": "aldair",
     "commit": {
       "date": "2026-03-03T03:26:27.000Z",
       "message": "feat: agregar puntaje del jugador 2",
-      "url": "https://github.com/diazaldair/saludador/commit/HEAD"
+      "url": "https://github.com/diazaldair/saludador/commit/6405dba4fc33d2e848fcba27c53905c9540256a9"
     },
     "stats": {
       "total": 269,
       "additions": 247,
       "deletions": 22,
+      "date": "2026-03-03"
+    },
+    "coverage": 95.92,
+    "test_count": 22,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "aldair",
+    "commit": {
+      "date": "2026-03-03T04:09:45.000Z",
+      "message": "refactor: ajustar formato de marcador con guion",
+      "url": "https://github.com/diazaldair/saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 151,
+      "additions": 127,
+      "deletions": 24,
       "date": "2026-03-03"
     },
     "coverage": 95.92,

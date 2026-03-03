@@ -7,7 +7,7 @@ class Tennis {
   score() {
     const p1 = this.pointsToScore(this.player1Points);
     const p2 = this.pointsToScore(this.player2Points);
-    return `${p1} - ${p2}`;
+    return `${p1}-${p2}`; // formato del PDF
   }
 
   pointsToScore(points) {
@@ -15,7 +15,7 @@ class Tennis {
     if (points === 1) return "15";
     if (points === 2) return "30";
     if (points === 3) return "40";
-    return "Game"; // por ahora NO lo usamos, luego lo afinamos
+    return "Game";
   }
 
   player1Scores() {
