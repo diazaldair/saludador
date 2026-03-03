@@ -496,9 +496,31 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "04b2ca773b044acb556e8ea09524ca3d5c3bc118",
     "commitName": "feat: mostrar advantage despues de deuce",
     "commitTimestamp": 1772512740937,
     "testId": 12
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 1,
+    "numTotalTests": 26,
+    "timestamp": 1772512881757,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 0,
+    "numTotalTests": 26,
+    "timestamp": 1772513234618,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: finalizar game despues de advantage",
+    "commitTimestamp": 1772513247621,
+    "testId": 13
   }
 ]

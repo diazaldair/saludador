@@ -68,4 +68,24 @@ it("desde Deuce, si jugador 1 anota => Advantage player 1", () => {
 
   expect(tennis.score()).toEqual("Advantage player 1");
 });
+it("desde Advantage player 1, si anota otra vez => Game for player 1", () => {
+  let tennis = new Tennis();
+
+  // llegar a Deuce
+  tennis.player1Scores();
+  tennis.player1Scores();
+  tennis.player1Scores();
+
+  tennis.player2Scores();
+  tennis.player2Scores();
+  tennis.player2Scores();
+
+  // Advantage player 1
+  tennis.player1Scores();
+
+  // Game player 1
+  tennis.player1Scores();
+
+  expect(tennis.score()).toEqual("Game for player 1");
+});
 });
