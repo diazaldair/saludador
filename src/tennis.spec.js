@@ -242,30 +242,34 @@ describe("Tennis Scorer", () => {
     expect(tennis.score()).toEqual("Game for Player 2");
   });
 
-  it("escenario del PDF completo hasta Advantage Player 1", () => {
-    let tennis = new Tennis();
+  it("escenario completo hasta Game for Player 1", () => {
+  let tennis = new Tennis();
 
-    expect(tennis.score()).toEqual("Love-Love");
+  expect(tennis.score()).toEqual("Love-Love");
 
-    tennis.player1Scores();
-    expect(tennis.score()).toEqual("15-Love");
+  tennis.player1Scores();
+  expect(tennis.score()).toEqual("15-Love");
 
-    tennis.player2Scores();
-    expect(tennis.score()).toEqual("15-15");
+  tennis.player2Scores();
+  expect(tennis.score()).toEqual("15-15");
 
-    tennis.player1Scores();
-    expect(tennis.score()).toEqual("30-15");
+  tennis.player1Scores();
+  expect(tennis.score()).toEqual("30-15");
 
-    tennis.player2Scores();
-    expect(tennis.score()).toEqual("30-30");
+  tennis.player2Scores();
+  expect(tennis.score()).toEqual("30-30");
 
-    tennis.player1Scores();
-    expect(tennis.score()).toEqual("40-30");
+  tennis.player1Scores();
+  expect(tennis.score()).toEqual("40-30");
 
-    tennis.player2Scores();
-    expect(tennis.score()).toEqual("Deuce");
+  tennis.player2Scores();
+  expect(tennis.score()).toEqual("Deuce");
 
-    tennis.player1Scores();
-    expect(tennis.score()).toEqual("Advantage Player 1");
-  });
+  tennis.player1Scores();
+  expect(tennis.score()).toEqual("Advantage Player 1");
+
+  // ✅ ÚLTIMO PASO DEL PDF
+  tennis.player1Scores();
+  expect(tennis.score()).toEqual("Game for Player 1");
+});
 });
