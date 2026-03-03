@@ -202,9 +202,127 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d11d9691415a982dfd343457cfc291f1c087f4ff",
     "commitName": "feat: agregar soporte de idioma ingles",
     "commitTimestamp": 1771479721051,
     "testId": 7
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1771507996446,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1771508086619,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1771508550082,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 1,
+    "numTotalTests": 14,
+    "timestamp": 1771510390739,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1771510717296,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1771510772284,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 1,
+    "numTotalTests": 16,
+    "timestamp": 1771510829086,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1771510876484,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1771510906555,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 1,
+    "numTotalTests": 17,
+    "timestamp": 1771510937970,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 0,
+    "numTotalTests": 17,
+    "timestamp": 1771511021055,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 1,
+    "numTotalTests": 22,
+    "timestamp": 1772508161037,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1772508201917,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1772508291125,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar puntaje del jugador 2",
+    "commitTimestamp": 1772508390584,
+    "testId": 8
   }
 ]

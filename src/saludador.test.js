@@ -43,5 +43,15 @@ describe("Saludador", () => {
   it("deberia saludar en ingles por la mañana", () => {
   expect(saludar("Ana", 9, "F", 40, "EN")).toEqual("Good morning Mrs. Ana");
 });
+////////////////////////////
+it("deberia saludar en ingles sin nombre", () => {
+  expect(saludar(undefined, 9, undefined, undefined, "EN"))
+    .toEqual("Good morning");
+});
+
+it("deberia saludar en ingles en la tarde con titulo", () => {
+  expect(saludar("John", 16, "M", 45, "EN"))
+    .toEqual("Good afternoon Mr. John");
+});
 
 });

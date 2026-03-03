@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d11d9691415a982dfd343457cfc291f1c087f4ff",
     "author": "aldair",
     "commit": {
       "date": "2026-02-19T05:41:58.000Z",
       "message": "feat: agregar soporte de idioma ingles",
-      "url": "https://github.com/diazaldair/saludador-tdd/commit/HEAD"
+      "url": "https://github.com/diazaldair/saludador-tdd/commit/d11d9691415a982dfd343457cfc291f1c087f4ff"
     },
     "stats": {
       "total": 49,
@@ -148,6 +148,25 @@
     },
     "coverage": 100,
     "test_count": 12,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "aldair",
+    "commit": {
+      "date": "2026-03-03T03:26:27.000Z",
+      "message": "feat: agregar puntaje del jugador 2",
+      "url": "https://github.com/diazaldair/saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 269,
+      "additions": 247,
+      "deletions": 22,
+      "date": "2026-03-03"
+    },
+    "coverage": 95.92,
+    "test_count": 22,
     "failed_tests": 0,
     "conclusion": "success"
   }
