@@ -247,12 +247,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c97e1db9896833f2d9179e1a12a1647fce65c197",
     "author": "aldair",
     "commit": {
       "date": "2026-03-03T04:47:24.000Z",
       "message": "feat: finalizar game despues de advantage",
-      "url": "https://github.com/diazaldair/saludador/commit/HEAD"
+      "url": "https://github.com/diazaldair/saludador/commit/c97e1db9896833f2d9179e1a12a1647fce65c197"
     },
     "stats": {
       "total": 79,
@@ -262,6 +262,25 @@
     },
     "coverage": 91.94,
     "test_count": 26,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "aldair",
+    "commit": {
+      "date": "2026-03-03T04:58:21.000Z",
+      "message": "feat: finalizar game para player 2 despues de advantage",
+      "url": "https://github.com/diazaldair/saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 69,
+      "additions": 69,
+      "deletions": 0,
+      "date": "2026-03-03"
+    },
+    "coverage": 96.77,
+    "test_count": 28,
     "failed_tests": 0,
     "conclusion": "success"
   }
