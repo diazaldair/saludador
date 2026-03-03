@@ -342,12 +342,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "46570060449d9e2509e52d3f9dd96e67c1840503",
     "author": "aldair",
     "commit": {
       "date": "2026-03-03T05:36:27.000Z",
       "message": "test: completar escenario hasta game",
-      "url": "https://github.com/diazaldair/saludador/commit/HEAD"
+      "url": "https://github.com/diazaldair/saludador/commit/46570060449d9e2509e52d3f9dd96e67c1840503"
     },
     "stats": {
       "total": 48,
@@ -356,6 +356,25 @@
       "date": "2026-03-03"
     },
     "coverage": 96.77,
+    "test_count": 39,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "aldair",
+    "commit": {
+      "date": "2026-03-03T05:49:27.000Z",
+      "message": "refactor: limpio codigo tennis",
+      "url": "https://github.com/diazaldair/saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 108,
+      "additions": 35,
+      "deletions": 73,
+      "date": "2026-03-03"
+    },
+    "coverage": 98.33,
     "test_count": 39,
     "failed_tests": 0,
     "conclusion": "success"
