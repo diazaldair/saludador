@@ -474,9 +474,31 @@
     "testId": 11
   },
   {
-    "commitId": "HEAD",
+    "commitId": "79231a9025b8656cec85928e571649ebc1b6fb15",
     "commitName": "feat: mostrar Deuce cuando hay 40-40",
     "commitTimestamp": 1772512152597,
     "testId": 11
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 1,
+    "numTotalTests": 25,
+    "timestamp": 1772512697505,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 0,
+    "numTotalTests": 25,
+    "timestamp": 1772512729014,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar advantage despues de deuce",
+    "commitTimestamp": 1772512740937,
+    "testId": 12
   }
 ]

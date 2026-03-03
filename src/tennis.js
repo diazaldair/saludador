@@ -5,15 +5,21 @@ class Tennis {
   }
 
   score() {
-    // ✅ NUEVO: Deuce cuando ambos llegan a 40 (3 puntos)
-    if (this.player1Points === 3 && this.player2Points === 3) {
-      return "Deuce";
-    }
-
-    const p1 = this.pointsToScore(this.player1Points);
-    const p2 = this.pointsToScore(this.player2Points);
-    return `${p1}-${p2}`;
+  // Deuce: ambos >= 3 y empatan
+  if (this.player1Points >= 3 && this.player2Points >= 3 && this.player1Points === this.player2Points) {
+    return "Deuce";
   }
+
+  // Advantage: ambos >= 3 y diferencia de 1
+  if (this.player1Points >= 3 && this.player2Points >= 3) {
+    if (this.player1Points === this.player2Points + 1) return "Advantage player 1";
+    if (this.player2Points === this.player1Points + 1) return "Advantage player 2";
+  }
+
+  const p1 = this.pointsToScore(this.player1Points);
+  const p2 = this.pointsToScore(this.player2Points);
+  return `${p1}-${p2}`;
+}
 
   pointsToScore(points) {
     if (points === 0) return "Love";

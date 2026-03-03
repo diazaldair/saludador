@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "79231a9025b8656cec85928e571649ebc1b6fb15",
     "author": "aldair",
     "commit": {
       "date": "2026-03-03T04:29:09.000Z",
       "message": "feat: mostrar Deuce cuando hay 40-40",
-      "url": "https://github.com/diazaldair/saludador/commit/HEAD"
+      "url": "https://github.com/diazaldair/saludador/commit/79231a9025b8656cec85928e571649ebc1b6fb15"
     },
     "stats": {
       "total": 35,
@@ -224,6 +224,25 @@
     },
     "coverage": 96.08,
     "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "aldair",
+    "commit": {
+      "date": "2026-03-03T04:38:58.000Z",
+      "message": "feat: mostrar advantage despues de deuce",
+      "url": "https://github.com/diazaldair/saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 53,
+      "additions": 46,
+      "deletions": 7,
+      "date": "2026-03-03"
+    },
+    "coverage": 92.86,
+    "test_count": 25,
     "failed_tests": 0,
     "conclusion": "success"
   }
