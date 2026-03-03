@@ -304,12 +304,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "43e86ae63e18f7a8284e823b736e89070a47d8db",
     "author": "aldair",
     "commit": {
       "date": "2026-03-03T05:12:31.000Z",
       "message": "test: agregar casos game sin deuce y marcadores faltantes",
-      "url": "https://github.com/diazaldair/saludador/commit/HEAD"
+      "url": "https://github.com/diazaldair/saludador/commit/43e86ae63e18f7a8284e823b736e89070a47d8db"
     },
     "stats": {
       "total": 96,
@@ -319,6 +319,25 @@
     },
     "coverage": 96.77,
     "test_count": 38,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "aldair",
+    "commit": {
+      "date": "2026-03-03T05:29:58.000Z",
+      "message": "test: alinear textos con formato",
+      "url": "https://github.com/diazaldair/saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 485,
+      "additions": 257,
+      "deletions": 228,
+      "date": "2026-03-03"
+    },
+    "coverage": 96.77,
+    "test_count": 39,
     "failed_tests": 0,
     "conclusion": "success"
   }

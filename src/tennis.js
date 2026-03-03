@@ -8,9 +8,8 @@ class Tennis {
     // 1) Game: si alguno tiene >=4 y diferencia >=2
     if (this.player1Points >= 4 || this.player2Points >= 4) {
       const diff = this.player1Points - this.player2Points;
-
-      if (diff >= 2) return "Game for player 1";
-      if (diff <= -2) return "Game for player 2";
+      if (diff >= 2) return "Game for Player 1";
+      if (diff <= -2) return "Game for Player 2";
     }
 
     // 2) Deuce: ambos >=3 y empatan
@@ -25,9 +24,9 @@ class Tennis {
     // 3) Advantage: ambos >=3 y diferencia de 1
     if (this.player1Points >= 3 && this.player2Points >= 3) {
       if (this.player1Points === this.player2Points + 1)
-        return "Advantage player 1";
+        return "Advantage Player 1";
       if (this.player2Points === this.player1Points + 1)
-        return "Advantage player 2";
+        return "Advantage Player 2";
     }
 
     // 4) Score normal
@@ -41,7 +40,7 @@ class Tennis {
     if (points === 1) return "15";
     if (points === 2) return "30";
     if (points === 3) return "40";
-    return "40"; // a partir de 4, el marcador normal ya no aplica (se controla arriba)
+    return "40";
   }
 
   player1Scores() {
