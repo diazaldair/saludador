@@ -570,9 +570,23 @@
     "testId": 15
   },
   {
-    "commitId": "HEAD",
+    "commitId": "80a52d1bf4668963c53d44c22868ee8a08c7e174",
     "commitName": "feat: volver a deuce cuando se pierde advantage",
     "commitTimestamp": 1772514348951,
     "testId": 15
+  },
+  {
+    "numPassedTests": 38,
+    "failedTests": 0,
+    "numTotalTests": 38,
+    "timestamp": 1772514739893,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: agregar casos game sin deuce y marcadores faltantes",
+    "commitTimestamp": 1772514753112,
+    "testId": 16
   }
 ]

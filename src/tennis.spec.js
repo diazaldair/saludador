@@ -166,4 +166,92 @@ it("si esta Advantage player 2 y anota player 1 => vuelve a Deuce", () => {
 
   expect(tennis.score()).toEqual("Deuce");
 });
+it("jugador 2 anota 2 veces jugador 1 en cero => Love-30", () => {
+  let tennis = new Tennis();
+  tennis.player2Scores();
+  tennis.player2Scores();
+  expect(tennis.score()).toEqual("Love-30");
+});
+
+it("jugador 2 anota 3 veces jugador 1 en cero => Love-40", () => {
+  let tennis = new Tennis();
+  tennis.player2Scores();
+  tennis.player2Scores();
+  tennis.player2Scores();
+  expect(tennis.score()).toEqual("Love-40");
+});
+
+// ✅ Game SIN deuce (player 1)
+it("jugador 1 anota 4 veces jugador 2 en cero => Game for player 1", () => {
+  let tennis = new Tennis();
+  tennis.player1Scores();
+  tennis.player1Scores();
+  tennis.player1Scores();
+  tennis.player1Scores();
+  expect(tennis.score()).toEqual("Game for player 1");
+});
+
+it("jugador 1 anota 4 y jugador 2 anota 1 => Game for player 1", () => {
+  let tennis = new Tennis();
+
+  tennis.player1Scores();
+  tennis.player1Scores();
+  tennis.player1Scores();
+  tennis.player1Scores();
+
+  tennis.player2Scores();
+
+  expect(tennis.score()).toEqual("Game for player 1");
+});
+
+it("jugador 1 anota 4 y jugador 2 anota 2 => Game for player 1", () => {
+  let tennis = new Tennis();
+
+  tennis.player1Scores();
+  tennis.player1Scores();
+  tennis.player1Scores();
+  tennis.player1Scores();
+
+  tennis.player2Scores();
+  tennis.player2Scores();
+
+  expect(tennis.score()).toEqual("Game for player 1");
+});
+
+// ✅ Game SIN deuce (player 2)
+it("jugador 2 anota 4 veces jugador 1 en cero => Game for player 2", () => {
+  let tennis = new Tennis();
+  tennis.player2Scores();
+  tennis.player2Scores();
+  tennis.player2Scores();
+  tennis.player2Scores();
+  expect(tennis.score()).toEqual("Game for player 2");
+});
+
+it("jugador 2 anota 4 y jugador 1 anota 1 => Game for player 2", () => {
+  let tennis = new Tennis();
+
+  tennis.player2Scores();
+  tennis.player2Scores();
+  tennis.player2Scores();
+  tennis.player2Scores();
+
+  tennis.player1Scores();
+
+  expect(tennis.score()).toEqual("Game for player 2");
+});
+
+it("jugador 2 anota 4 y jugador 1 anota 2 => Game for player 2", () => {
+  let tennis = new Tennis();
+
+  tennis.player2Scores();
+  tennis.player2Scores();
+  tennis.player2Scores();
+  tennis.player2Scores();
+
+  tennis.player1Scores();
+  tennis.player1Scores();
+
+  expect(tennis.score()).toEqual("Game for player 2");
+});
 });

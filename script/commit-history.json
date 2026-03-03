@@ -285,12 +285,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "80a52d1bf4668963c53d44c22868ee8a08c7e174",
     "author": "aldair",
     "commit": {
       "date": "2026-03-03T05:05:47.000Z",
       "message": "feat: volver a deuce cuando se pierde advantage",
-      "url": "https://github.com/diazaldair/saludador/commit/HEAD"
+      "url": "https://github.com/diazaldair/saludador/commit/80a52d1bf4668963c53d44c22868ee8a08c7e174"
     },
     "stats": {
       "total": 49,
@@ -300,6 +300,25 @@
     },
     "coverage": 96.77,
     "test_count": 30,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "aldair",
+    "commit": {
+      "date": "2026-03-03T05:12:31.000Z",
+      "message": "test: agregar casos game sin deuce y marcadores faltantes",
+      "url": "https://github.com/diazaldair/saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 96,
+      "additions": 96,
+      "deletions": 0,
+      "date": "2026-03-03"
+    },
+    "coverage": 96.77,
+    "test_count": 38,
     "failed_tests": 0,
     "conclusion": "success"
   }
